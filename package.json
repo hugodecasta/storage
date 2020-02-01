@@ -1,0 +1,23 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "Store your data encrypted",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "storage",
+    "encryption",
+    "decryption",
+    "file"
+  ],
+  "author": "Hugo Castaneda",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
