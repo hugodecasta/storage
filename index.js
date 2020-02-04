@@ -53,7 +53,7 @@ class Storage {
 
     hkey_to_filename(hkey) {
         let hashfile = hash('hkey'+hkey+'tofilename')
-        return hashfile
+        return this.data_dir+'/'+hashfile
     }
 
     read_key(key) {
