@@ -47,7 +47,8 @@ class Storage {
         this.data_dir = data_dir
 
         if(!fs.existsSync(data_dir)) {
-            fs.mkdirSync(data_dir)
+            var shell = require('shelljs')
+            shell.mkdir('-p', data_dir);
         }
     }
 
